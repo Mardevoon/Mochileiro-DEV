@@ -84,6 +84,11 @@ body{
     font-weight: 400;
     font-size: 24px;
     color: var(--cor-terciaria);
+    transition: 0.2s;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: var(--cor-primaria);
 }
 
 .conteudo-principal-imagem{
@@ -109,4 +114,15 @@ body{
 .conteudo-segundario-paragrafo{
     font-weight: 300;
     font-size: 18px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid var(--cor-primaria);
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
 }
