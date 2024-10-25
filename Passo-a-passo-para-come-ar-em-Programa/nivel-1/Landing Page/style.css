@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    --fonte-principal: 'Sarala', sans-serif;
+    --fonte-segundaria: 'Righteous', sans-serif;
+    --cor-primaria: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    --cor-segudaria: #FFF2E7;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 100%;
+    background: var(--cor-primaria)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color: var(--cor-segudaria);
+    font-weight: 400;
+    font-size: 18px;
+}
